@@ -1,5 +1,21 @@
 {
   "name": "T_LAMP(VER 0.2)",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "ota": {
+        "md5": "1234567890abcdef1234567890abcdef",
+        "path": "/local/esp32/firmware.bin",
+        "release_url": "http://example.com/releases/10",
+        "summary": "Another update"
+      }
+    }
+  ]
+}
+
+{
+  "name": "T_LAMP(VER 0.2)",
   "version": "1.1",
   "builds": [
     {
