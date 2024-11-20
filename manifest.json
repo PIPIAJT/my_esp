@@ -6,9 +6,7 @@
       "chipFamily": "ESP32",
       "ota": {
         "md5": "1234567890abcdef1234567890abcdef",
-        "path": "/local/esp32/firmware.bin",
-        "release_url": "http://example.com/releases/10",
-        "summary": "Another update"
+        "path": "http://example.com/releases/10/local/esp32/firmware.bin",
       }
     }
   ]
@@ -22,9 +20,7 @@
       "chipFamily": "ESP32",
       "ota": {
         "md5": "1234567890abcdef1234567890abcdef",
-        "path": "/local/esp32/firmware.bin",
-        "release_url": "http://example.com/releases/10",
-        "summary": "Another update"
+        "path": "http://example.com/releases/10/local/esp32/firmware.bin",
       }
     }
   ]
