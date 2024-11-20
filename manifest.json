@@ -7,15 +7,10 @@
     {
       "chipFamily": "ESP32",
       "ota": {
-        "path": "apollo-plt-1b-esp32c3.ota.bin",
-        "md5": "85e528464f6610d1416b489c58f38ee6"
+        "path": "t-lampver-ver02.ota.bin",
+        "md5": "85e528464f6610d1416b489c58f38ee6",
+        "summary": "Another update"
       },
-      "parts": [
-        {
-          "path": "apollo-plt-1b-esp32c3.factory.bin",
-          "offset": 0
-        }
-      ]
     }
   ]
 }
