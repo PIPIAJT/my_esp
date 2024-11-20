@@ -6,7 +6,7 @@
       "chipFamily": "ESP32",
       "ota": {
         "path": "t-lampver-ver02.ota.bin",
-        "md5": "85e528464f6610d1416b489c58f38ee6",
+        "md5": "d0d526279d3c94cb74b7633d36c50451",
         "summary": "TISH IS OTA TEST"
       }
     }
