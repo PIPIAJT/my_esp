@@ -1,27 +1,21 @@
 {
-  "name": "T_LAMP(VER 0.2)",
-  "version": "1.0",
+  "name": "Apollo PLT-1B",
+  "version": "1.1.0",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "md5": "1234567890abcdef1234567890abcdef",
-        "path": "http://example.com/releases/10/local/esp32/firmware.bin",
-      }
-    }
-  ]
-}
-
-{
-  "name": "T_LAMP(VER 0.2)",
-  "version": "1.1",
-  "builds": [
-    {
-      "chipFamily": "ESP32",
-      "ota": {
-        "md5": "1234567890abcdef1234567890abcdef",
-        "path": "http://example.com/releases/10/local/esp32/firmware.bin",
-      }
+        "path": "apollo-plt-1b-esp32c3.ota.bin",
+        "md5": "85e528464f6610d1416b489c58f38ee6"
+      },
+      "parts": [
+        {
+          "path": "apollo-plt-1b-esp32c3.factory.bin",
+          "offset": 0
+        }
+      ]
     }
   ]
 }
